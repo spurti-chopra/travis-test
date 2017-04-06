@@ -1,0 +1,4 @@
+language: bash
+os: power
+install: skip
+script: date

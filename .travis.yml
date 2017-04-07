@@ -1,4 +1,4 @@
 language: bash
 os: power
 install: skip
-script: echo "hi"
+script: date

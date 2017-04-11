@@ -1,4 +1,4 @@
 language: bash
 os: power
 install: skip
-script: date
+script: uname -m

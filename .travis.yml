@@ -1,4 +1,6 @@
 language: bash
 os: power
+before_install:
+ - sudo apt-get install git
 install: skip
 script: uname -m

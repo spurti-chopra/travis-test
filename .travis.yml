@@ -1,11 +1,10 @@
 language: bash
 matrix:
-  - os: power
-    dist: trusty
-  - os: power
-    dist: xenial
+  include:
+    - os: power
+      dist: trusty
+    - os: power
+      dist: xenial
 install: 
  - sudo apt-get install git
-script:
-  - if [[ "$TRAVIS_DIST_NAME" == "trusty" ]]; then unmae -m ; fi
-  - if [[ "$TRAVIS_DIST_NAME" == "xenial" ]]; then date ; fi
+script: uname -m

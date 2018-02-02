@@ -2,8 +2,6 @@ language: bash
 matrix:
   include:
     - os: power
-      dist: trusty
-    - os: power
       dist: xenial
 install: 
  - sudo apt-get install git

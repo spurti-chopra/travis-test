@@ -4,4 +4,7 @@ matrix:
     - os: linux-ppc64le
       dist: xenial
       sudo: false
+    - os: linux-ppc64le
+      dist: xenial
+      sudo: required
 script: uname -m

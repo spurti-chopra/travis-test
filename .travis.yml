@@ -1,8 +1,7 @@
 language: bash
 matrix:
   include:
-    - os: power
+    - os: linux-ppc64le
       dist: xenial
-install: 
- - sudo apt-get install git
+      sudo: false
 script: uname -m
